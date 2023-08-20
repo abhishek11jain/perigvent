@@ -1,5 +1,5 @@
 *{
-    box-shadow: none !important;
+    box-shadow: none !important; list-style: none; text-decoration: none !important;
 }
 @media only screen and (max-width : 767px){
     .title-heading h4{font-size: 20px !important;}
@@ -8,19 +8,22 @@
     .title-heading p{font-size: 14px !important; text-align: justify;}
 
 
-    .badge { color: var(--bg-primary); font-size: 0.875rem; font-weight: 400; padding: 5px 5px 5px 5px; margin: 8px 5px 10px 5px;}
+    .badge { color: var(--bg-primary); font-size: 0.875rem; font-weight: 400; padding: 5px 5px 5px 5px; margin: 5px 0px 2px 4px;}
 
     /* Header Start */
-        .header-section .justify-content-center{justify-content: start !important;}
-        .header-section .offcanvas-start{ width: 70% !important; padding: 15px 0 0 0;}
-        .header-section .navbar-nav{width: 100%; padding: 10px;}
-        .header-section .navbar-nav .nav-item{ background: var(--bg-gray); margin-bottom: 10px; border-radius: 10px;}
+    .header-section .justify-content-center{justify-content: start !important;}
+    .header-section .offcanvas-start{ width: 70% !important; padding: 15px 0 0 0;}
+    .header-section .navbar-nav{width: 100%; padding: 10px;}
+    .header-section .info{width: 100% !important; padding: 10px !important;}
+    .header-section .info h3{font-size: 15px !important;}
+    .header-section .info li{width: 100% !important; padding: 10px 20px; background: var(--bg-gray); margin-bottom: 10px; border-radius: 10px;}
+    .header-section .navbar-nav .nav-item{ background: var(--bg-gray); margin-bottom: 10px; border-radius: 10px;}
     /* Header Start */
 
 
     /* Banner Section Start */
     .banner-section .content-box{ text-align: center; }
-    .banner-section h1{font-size: 1.2em !important; text-shadow: 1px 1px 8px var(--bg-primary) !important;}
+    .banner-section h1{font-size: 1.2em !important; color: var(--bg-primary) !important; text-shadow: none !important;}
     .heading-title h2{font-size: 18px !important;}
     /* Banner Section End */
 
@@ -32,11 +35,13 @@
     /* Feature Section End */
 
 
+    /* Event Section Start */
+    .event-section .card{margin-bottom: 10px;}
+    /* Event Section End */
+
     /* WHat we do Section Start */
     .what-we-do{padding: 1em;}
-    .what-we-do .vector-image{
-        margin-bottom: 1.5em;
-    }
+    .what-we-do .vector-image{ margin-bottom: 1.5em; }
     /* WHat we do Section End */
 }
 

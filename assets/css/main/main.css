@@ -2,7 +2,7 @@
 
 /* Font Family Start */
 @font-face { 
-    src: url(/assets/font/Lato-Regular.ttf); 
+    src: url(../../font/Lato-Regular.ttf); 
     font-family: lato-regular;
 }
 h1,h2,h3,h4,h5,h6,p,span.ul,li.a{
@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6,p,span.ul,li.a{
 
 
 /* Root Fixed */
-:root{ --bg-white : #fff !important;  --bg-dark : #000 !important;  --bg-gray: #efefef61 !important;  --text-white : #fff !important;  --text-dark : #000 !important; --bg-primary : #E0922F !important;   --bg-secondary : #DDDDDD !important;  --text-primary :  #E0922F !important;  --text-secondary : #DDDDDD  !important;  }
+:root{ --bg-white : #fff !important; --footer-bg: #ecc65416; --bg-dark : #000 !important;  --bg-gray: #efefef61 !important;  --text-white : #fff !important;  --text-dark : #000 !important; --bg-primary : #E0922F !important;   --bg-secondary : #DDDDDD !important;  --text-primary :  #E0922F !important;  --text-secondary : #DDDDDD  !important;  }
 /* Root Fixed */
 
 
@@ -86,3 +86,20 @@ h1,h2,h3,h4,h5,h6,p,span.ul,li.a{
 .feature-section .icon img{width: 60px;}
 .feature-section p{text-transform: capitalize;}
 /* Features Section End */
+
+
+/* Footer Section Start */
+.footer-section{background: var(--footer-bg);}
+.footer-section img{width: 180px; margin-bottom: 15px;}
+.footer-section p{text-align: justify;}
+.footer-section ul{list-style: none; padding-left: 0;}
+.footer-section ul li{list-style: none; padding-left: 0; line-height: 35px;}
+.footer-section ul li a{text-decoration: none; font-weight: 400; color: var(--bg-dark);}
+.footer-section .social-media .fa{font-size: 1.5em !important; padding-right: 10px; margin-top: 10px;}
+/* Footer Section End */
+
+
+/* Copyright Section Start */
+.copyright-section{background: var(--bg-primary); color: var(--bg-white);}
+.copyright-section a{color: var(--bg-white); text-decoration: none; font-weight: 600;}
+/* Copyright Section End */
