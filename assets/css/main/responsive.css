@@ -1,0 +1,47 @@
+*{
+    box-shadow: none !important;
+}
+@media only screen and (max-width : 767px){
+    .title-heading h4{font-size: 20px !important;}
+    .title-heading h3{font-size: 18px !important;}
+    .title-heading h5{font-size: 16px !important;}
+    .title-heading p{font-size: 14px !important; text-align: justify;}
+
+
+    .badge { color: var(--bg-primary); font-size: 0.875rem; font-weight: 400; padding: 5px 5px 5px 5px; margin: 8px 5px 10px 5px;}
+
+    /* Header Start */
+        .header-section .justify-content-center{justify-content: start !important;}
+        .header-section .offcanvas-start{ width: 70% !important; padding: 15px 0 0 0;}
+        .header-section .navbar-nav{width: 100%; padding: 10px;}
+        .header-section .navbar-nav .nav-item{ background: var(--bg-gray); margin-bottom: 10px; border-radius: 10px;}
+    /* Header Start */
+
+
+    /* Banner Section Start */
+    .banner-section .content-box{ text-align: center; }
+    .banner-section h1{font-size: 1.2em !important; text-shadow: 1px 1px 8px var(--bg-primary) !important;}
+    .heading-title h2{font-size: 18px !important;}
+    /* Banner Section End */
+
+
+    /* Feature Section Start */
+    .feature-section .icon img{width: 40px !important;}
+    .feature-section p{font-size: 10px !important;}
+    .feature-section .icon-base{padding: 0.5em !important;}
+    /* Feature Section End */
+
+
+    /* WHat we do Section Start */
+    .what-we-do{padding: 1em;}
+    .what-we-do .vector-image{
+        margin-bottom: 1.5em;
+    }
+    /* WHat we do Section End */
+}
+
+
+@media only screen and (min-width : 767px){
+    .offcanvas{ position: unset !important; visibility: unset !important; }
+    .offcanvas-start{ width: auto !important; border: none !important; transform: none !important; }
+}

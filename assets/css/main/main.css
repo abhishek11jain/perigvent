@@ -1,0 +1,88 @@
+*{margin: 0; padding: 0; top: 0; left: 0; box-shadow: none;}
+
+/* Font Family Start */
+@font-face { 
+    src: url(/assets/font/Lato-Regular.ttf); 
+    font-family: lato-regular;
+}
+h1,h2,h3,h4,h5,h6,p,span.ul,li.a{
+    font-family: lato-regular !important;
+}
+/* Font Family End */
+
+
+/* Root Fixed */
+:root{ --bg-white : #fff !important;  --bg-dark : #000 !important;  --bg-gray: #efefef61 !important;  --text-white : #fff !important;  --text-dark : #000 !important; --bg-primary : #E0922F !important;   --bg-secondary : #DDDDDD !important;  --text-primary :  #E0922F !important;  --text-secondary : #DDDDDD  !important;  }
+/* Root Fixed */
+
+
+/* Hover Class Start */
+.text-hover{ transition: 0.3s ease-in-out; }
+.text-hover:hover{ color: var(--text-primary); }
+/* Hover Class End */
+
+
+/* Active Class Start */
+.active{color:var(--bg-primary) !important}
+/* Active Class End */
+
+
+/* Font Awasome Class Start */
+.fa{color: #E0922F !important;}
+/* Font Awasome Class End */
+
+
+/* Badge Buttons */
+.badge{color :var(--bg-primary); font-size: 1.2rem; font-weight: 400; padding: 8px 20px 8px 20px; margin: 0 5px 10px 5px;}
+/* Badge Buttons */
+
+/* Heading Title Start */
+.heading-title h2{text-transform: uppercase; color: var(--bg-primary); font-weight: bold; font-size: 25px;}
+.heading-title .line { display: inline-block; width: 20px; height: 10px; border-radius: 15px; }
+.heading-title .line-1{ background: var(--bg-primary); }
+.heading-title .line-2{ background: var(--bg-secondary); }
+.heading-title .heading-animation .line:nth-last-child(1) { animation: loadingB 2.5s 1s infinite; }
+.heading-title .heading-animation .line:nth-last-child(2) { animation: loadingB 2.5s 0.5s infinite; }
+.heading-title .heading-animation .line:nth-last-child(3) { animation: loadingB 2.5s 0s infinite; }
+@keyframes loadingB { 0% { width: 15px; } 50% { width: 35px; } 100% { width: 15px; }}
+/* Heading Title End */
+
+
+/* Title Code Start */
+.title-heading h3{font-size: 20px; font-weight: bold; color: var(--bg-primary);}
+.title-heading h4{font-size: 35px; font-weight: 500; color: var(--bg-dark);}
+.title-heading h5{font-size: 23px; font-weight: 500; color: var(--bg-dark);}
+/* Title Code End */
+
+
+/* Button Class Start */
+.button-primary{background-color: var(--bg-primary); color: var(--text-white); transition: 0.3s ease-in-out; }
+.button-primary:hover{background-color: var(--bg-white) !important; color: var(--bg-primary) !important; border-color : var(--bg-primary) !important;}
+
+.button-secondary{background-color: var(--bg-white); color: var(--text-primary); transition: 0.3s ease-in-out; font-weight: 500; border-color: var(--bg-primary);}
+.button-secondary:hover{background-color: var(--bg-primary) !important; color: var(--text-white) !important; border-color : var(--bg-primary) !important;}
+/* Button Class End */
+
+
+/* Header Setion Start */
+.header-section .navbar-brand img{ width: 150px; max-width: 200px; }
+.header-section a{ color: var(--text-dark); font-weight: 500;}
+.header-section .nav-link{ margin-left: 20px;}
+.header-section a:active{ color: var(--text-primary); }
+/* Header Setion End */
+
+
+/* Banner Section Start */
+.banner-section{ background-image: url(/assets/images/background/banner-background.jpg); background-size: cover; height: auto; }
+.banner-section h1{ font-size: 3.2em ; font-weight: bold; text-transform: capitalize; color: var(--text-white) !important; text-shadow: 0px 0px 6px var(--bg-primary) !important;}
+.banner-section .icon-box{background: var(--bg-white) ; width: 150px;}
+.banner-section .icon-box img{width: 40px;}
+.banner-section .icon-box p{font-size: 12px;}
+/* Banner Section End */
+
+
+/* Features Section Start */
+.feature-section .icon-base {background: var(--bg-white); margin-bottom: 10px;}
+.feature-section .icon img{width: 60px;}
+.feature-section p{text-transform: capitalize;}
+/* Features Section End */
