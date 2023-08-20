@@ -2,7 +2,7 @@
 
 /* Font Family Start */
 @font-face { 
-    src: url(assets/font/Lato-Regular.ttf); 
+    src: url(/assets/font/Lato-Regular.ttf); 
     font-family: lato-regular;
 }
 h1,h2,h3,h4,h5,h6,p,span.ul,li.a{
@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6,p,span.ul,li.a{
 
 
 /* Banner Section Start */
-.banner-section{ background-image: url(/assets/images/vectors/banner-background.jpg); background-size: cover; height: auto; }
+.banner-section{ background-size: cover; height: auto; }
 .banner-section h1{ font-size: 3.2em ; font-weight: bold; text-transform: capitalize; color: var(--text-white) !important; text-shadow: 0px 0px 6px var(--bg-primary) !important;}
 .banner-section .icon-box{background: var(--bg-white) ; width: 150px;}
 .banner-section .icon-box img{width: 40px;}
